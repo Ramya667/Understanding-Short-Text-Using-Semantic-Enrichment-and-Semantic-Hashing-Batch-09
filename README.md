@@ -1,5 +1,3 @@
-# Understanding-Short-Text-Using-Semantic-Enrichment-and-Semantic-Hashing-Batch-09
-This application provides a user friendly query search for the user of the application. 
 # Understanding-Short-Text-Using-Semantic-Enrichment-and-Semantic-Hashing
 # Batch No - B9
 Ramya  S (164G1A0575)
