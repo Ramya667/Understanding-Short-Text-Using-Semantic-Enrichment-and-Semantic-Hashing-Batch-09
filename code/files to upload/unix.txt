@@ -1,0 +1,19 @@
+read first
+awk -F "|" '
+{ if($3 == ""){
+    tota=0;}
+   else if(match($3,":")){
+       split($3,a,":")
+       tota=60*a[1]+a[2];
+   }
+   else
+      tota=$3*60;
+
+}
+{
+    print($1,$2,tota)
+}
+
+
+
+'
